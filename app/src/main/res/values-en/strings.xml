@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">myTimeTable</string>
+    <string name="anadir_clase">Add Class</string>
+    <string name="ver_horario">See Timetable</string>
+    <string name="que_toca">Which class do I have now?</string>
+    <string name="asignatura">Subject</string>
+    <string name="hora">Time</string>
+    <string name="anadir">Add</string>
+    <string name="cancelar">Cancel</string>
+</resources>

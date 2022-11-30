@@ -3,15 +3,12 @@ package com.example.mihorario;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class activity_verHorario extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        Button btNuevaClase
+        setContentView(R.layout.activity_ver_horario);
     }
 }

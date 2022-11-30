@@ -3,5 +3,9 @@
     <string name="anadir_clase">Añadir Clase</string>
     <string name="ver_horario">Ver Horario</string>
     <string name="que_toca">¿Qué toca ahora?</string>
+    <string name="asignatura">Asignatura</string>
+    <string name="hora">Hora</string>
+    <string name="anadir">Añadir</string>
+    <string name="cancelar">Cancelar</string>
 
 </resources>

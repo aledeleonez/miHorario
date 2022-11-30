@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">miHorario</string>
+    <string name="anadir_clase">Añadir Clase</string>
+    <string name="ver_horario">Ver Horario</string>
+    <string name="que_toca">¿Qué toca ahora?</string>
+
 </resources>

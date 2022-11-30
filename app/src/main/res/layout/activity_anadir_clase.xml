@@ -25,7 +25,7 @@
             android:textColorHint="@color/black" />
 
         <Spinner
-            android:id="@+id/spinner3"
+            android:id="@+id/spinnerAsignatura"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -49,6 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="anadirAsignatura"
                 android:text="@string/anadir" />
 
             <Button
@@ -56,6 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="cancelar"
                 android:text="@string/cancelar" />
         </LinearLayout>
 

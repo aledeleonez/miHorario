@@ -10,9 +10,9 @@ import android.widget.Spinner;
 
 import java.util.ArrayList;
 
-public class activity_anadirClase extends AppCompatActivity {
+import static  com.example.mihorario.MainActivity.misAsignaturas;
 
-    ArrayList<Asignatura> asignaturas = new ArrayList<>();
+public class activity_anadirClase extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,7 @@ public class activity_anadirClase extends AppCompatActivity {
         String hora = textHora.getText().toString();
 
         Asignatura a = new Asignatura(nombre, dia, hora);
-        asignaturas.add(a);
+        misAsignaturas.add(a);
     }
 
     public void cancelar(){

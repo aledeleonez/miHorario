@@ -14,9 +14,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button nuevaClase = findViewById(R.id.bt_anadirClase);
-        Button verHorario = findViewById(R.id.bt_verHorario);
-        Button queToca = findViewById(R.id.bt_queToca);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
     public void nuevaClase(View view){
@@ -33,7 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intentQueToca = new Intent(this, activity_queToca.class);
         startActivity(intentQueToca);
     }
-
 
     @Override
     public void onClick(View view) {
